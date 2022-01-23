@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+body{
+    font-family: "Quicksand", sans-serif;
+    font-size: 20px;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 50px;
+    background-color: rgb(#008F8F);
+}
+
+nav {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    padding-top: 50px;
+}
+
+.logo{
+    grid-column: 1 / 6;
+    display: flex;
+    align-items: center;
+}
+
+.logo h3{
+    font-size: 1.4em;
+    color: rgb(#282929);
+    font-weight: 500;
+}
+
+ul.nav-links {
+    grid-column: 6 / 11;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+ul.nav-links li a{
+    font-size: 0.9em;
+    color: rgb(#363636);
+}
+
+ul.nav-links li a.active {
+    color: #282929;
+    font-weight: 500;
+}
+
+a.btn-primary {
+    grid-column: 11 / 13;
+    display: inline-block;
+    padding: 13px 30px 14px 31px;
+    background: rgb(#6b6d6d);
+    text-align: center;
+    border-radius: 30px 30px 20px 20px;
+    color:#282929;
+    font-weight: 600;
+    font-size: 0.9em;
+}
+
+.banner {
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-auto-rows: minmax(405px, auto);
+}
+
+.banner-caption {
+    grid-column: 1 / 6;
+    padding: 0 44px;
+    align-self: center;
+}
+
+.banner-caption h1 {
+    font-size: 2.3em;
+    font-weight: 700;
+    color: #282929;
+    line-height: 70px;
+}
+
+.banner-caption p {
+    margin-top: 10px;
+    line-height: 34px;
+    font-size: 1em;
+    font-weight: 400;
+    color: #363636;
+}
+.right-content {
+    align-self: center;
+  }
+  
+  img[src="pic.png"] {
+    width: 500px;
+    padding-left: 50x;
+    margin-left: 100px;
+    margin-right: -600px;
+    margin-top: -100px;
+
+  }
+.btn-secondary {
+    background: #c22020;
+    display: inline-block;
+    padding: 13px 42px 14px 42px;
+    margin-top: 53px;
+    color: #282929;
+    font-weight: 500;
+    font-size: 0.9em;
+    border-radius: 30px 30px 15px 15px;
+  }
+.second h2 {
+    text-align: center;
+}
+img[src="yes.png"] {
+    width: 400px;
+}
+.left-banner{
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-auto-rows: minmax(405px, auto);
+}
+.left-banner-caption{
+    grid-column: 1 / 6;
+    padding: 0 44px;
+    align-self: center;
+}
+.left-banner-caption h1{
+    font-size: 2.3em;
+    font-weight: 700;
+    color: #282929;
+    line-height: 70px;
+}
+.content{
+    align-self: center;
+}
+img[src="uss.png"]{
+    width: 450px;
+    padding-left: 50x;
+    padding-top: 200px;
+    margin-left: 600px;
+    margin-right: -600px;
+    margin-top: -800px;
+    margin-bottom: 30px;
+}
